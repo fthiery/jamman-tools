@@ -44,7 +44,6 @@ Will remove temporary files
 TODO
 ====
 
-jamman_sync or jamman_import
-option parsing
-packaging/installer
-gst-launch ? interactive ?
+ * packaging/installer
+ * option parsing
+ * jamman_sync or jamman_import

@@ -1,0 +1,50 @@
+Description
+===========
+
+jamman-tools is a python script collection aimed at producing music very quickly using the JamMan loop sequencer by DigiTech.
+
+Workflow
+========
+
+1) plug the jamman to your computer
+2) create a new directory, in which you copy the samples directories as is
+3) enter the directory (cd)
+4) jamman_all will generate a generic preview
+5) eventually use jamman_sequence to define the merging sequence
+
+Of course it is possible to prevent using the sequencer at all by doing it on the jamman itself (i.e. copy slot 10 to 11)
+
+Scripts
+=======
+
+* jamman_extract 
+
+Will move and rename the wav loop files to the root project directory
+
+* jamman_sequence 
+
+Will let you define the rendering sequence
+
+* jamman_render 
+
+Will then render the project
+
+* jamman_compress 
+
+Will produce mp3 & Flac versions of the file to an 'encoded' subdir
+
+* jamman_export 
+
+Will recursively copy all of the mp3 version of a directory structure to an "exported" directory in the current path
+
+* jamman_clean 
+
+Will remove temporary files
+
+TODO
+====
+
+jamman_sync or jamman_import
+option parsing
+packaging/installer
+gst-launch ? interactive ?

@@ -1,0 +1,10 @@
+Fixes:
+ * rename WAV to .wav (for soundcloud)
+ * fix samples sorting: over 10 will be taken first
+
+Features:
+ * allow shell-like handling of sequence (up -> last line, left/right navigate, ...)
+ * small fadein to reduce level bursts
+ * soundcloud integration : https://github.com/soundcloud/python-api-wrapper/wiki
+ * export to audacity project file format
+ * gtk frontend

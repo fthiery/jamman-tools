@@ -7,7 +7,7 @@ from termcolor import colored
 import jamman.utils as utils
 
 normalize = True
-play_preview = True
+play_preview = False
 show_info = False
 
 sequence_file = 'sequence.jam'

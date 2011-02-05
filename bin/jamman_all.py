@@ -23,16 +23,16 @@ def render_project(path='.'):
                 raw = True
         if raw:
             print colored('Extracting files', 'green')
-            os.system('jamman_extract.py')
+            os.system('jamman_extract')
 
         if not raw and os.path.isfile('preview.wav'):
             print colored('Cleaning project', 'green')
-            os.system('jamman_clean.py')
+            os.system('jamman_clean')
 
         print colored('Rendering project', 'green')
-        os.system('jamman_render.py')
+        os.system('jamman_render')
         print colored('Compressing project', 'green')
-        os.system('jamman_compress.py')
+        os.system('jamman_compress')
 
     else:
         print 'Dir is not a project'

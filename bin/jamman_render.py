@@ -24,7 +24,7 @@ if utils.dir_is_project('.', quit=True):
 
 files = os.listdir('.')
 for filename in files:
-    if filename.upper().endswith('.WAV'):
+    if filename.upper().endswith('.wav'):
         if filename != preview_name:
             wave_files.append(filename)
 

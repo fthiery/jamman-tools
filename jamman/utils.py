@@ -13,7 +13,7 @@ def get_files(directory='.'):
 def dir_is_project(directory='.', quit=False):
     if os.path.isdir(directory):
         files = get_files()
-        if '1.WAV' in files:
+        if '1.wav' in files:
             return True
     if quit:
         print colored('Current directory not a jamman project, exiting', 'red')
@@ -28,7 +28,7 @@ def get_samples():
     for fname in files:
         if os.path.isfile(fname):
             name, ext = os.path.splitext(fname) 
-            if ext == '.WAV':
+            if ext == '.wav':
                 try:
                     name_to_int = int(name)
                     is_sample = True

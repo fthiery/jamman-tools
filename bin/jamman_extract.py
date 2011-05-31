@@ -21,7 +21,7 @@ for directory in dirs:
         loop_dirs.append(directory)
         wave_path = os.path.join(directory, 'LOOP.WAV')
         if os.path.isfile(wave_path):
-            new_wave_path = '%s.WAV' %loop_nb
+            new_wave_path = '%s.wav' %loop_nb
             print "%s -> %s" %(wave_path, new_wave_path)
             os.system(move_cmd_pattern %(wave_path, new_wave_path))
             loop_nb += 1

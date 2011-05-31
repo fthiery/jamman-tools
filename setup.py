@@ -4,7 +4,7 @@
 
 import os
 
-python_lib_path = '/usr/lib/python2.7/site-packages/'
+python_lib_path = '/usr/lib/python2.7/dist-packages/'
 
 bindirname = 'bin'
 srcdirname = 'jamman'

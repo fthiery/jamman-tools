@@ -13,7 +13,7 @@ show_info = False
 sequence_file = 'sequence.jam'
 preview_name = 'preview.wav'
 merge_cmd = 'wavmerge -o %s' %preview_name
-normalize_cmd = 'normalize %s' %preview_name
+normalize_cmd = 'normalize-audio %s' %preview_name
 info_cmd = 'wavinfo %s' %preview_name
 playback_cmd = 'mplayer %s' %preview_name
 

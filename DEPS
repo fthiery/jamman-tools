@@ -1,4 +1,4 @@
-normalize
+normalize-audio
 wavbreaker
 ffmpeg
 mplayer

@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jamman-tools by fthiery</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jamman-tools</h1>
+        <p>jamman-tools is a python script collection aimed at producing music very quickly using the JamMan loop sequencer by DigiTech</p>
+
+        <p class="view"><a href="https://github.com/fthiery/jamman-tools">View the Project on GitHub <small>fthiery/jamman-tools</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/fthiery/jamman-tools/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/fthiery/jamman-tools/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/fthiery/jamman-tools">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h3>
+
+<p>jamman-tools is a python script collection aimed at producing music very quickly using the JamMan loop sequencer by DigiTech.</p>
+
+<h3>
+<a id="workflow" class="anchor" href="#workflow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow</h3>
+
+<p>1) plug the jamman to your computer
+2) create a new directory, in which you copy the samples directories as is
+3) enter the directory (cd)
+4) jamman_all will generate a generic preview
+5) eventually use jamman_sequence to define the merging sequence</p>
+
+<p>Of course it is possible to prevent using the sequencer at all by doing it on the jamman itself (i.e. copy slot 10 to 11)</p>
+
+<h3>
+<a id="scripts" class="anchor" href="#scripts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Scripts</h3>
+
+<pre><code>jamman_extract 
+</code></pre>
+
+<p>Will move and rename the wav loop files to the root project directory</p>
+
+<pre><code>jamman_sequence
+</code></pre>
+
+<p>Will let you define the rendering sequence</p>
+
+<pre><code>jamman_render 
+</code></pre>
+
+<p>Will then render the project</p>
+
+<pre><code>jamman_compress 
+</code></pre>
+
+<p>Will produce mp3 &amp; Flac versions of the file to an 'encoded' subdir</p>
+
+<pre><code>jamman_export 
+</code></pre>
+
+<p>Will recursively copy all of the mp3 version of a directory structure to an "exported" directory in the current path</p>
+
+<pre><code>jamman_clean 
+</code></pre>
+
+<p>Will remove temporary files</p>
+
+<h3>
+<a id="todo" class="anchor" href="#todo" aria-hidden="true"><span class="octicon octicon-link"></span></a>TODO</h3>
+
+<ul>
+<li>packaging/installer</li>
+<li>option parsing</li>
+<li>jamman_sync or jamman_import</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/fthiery">fthiery</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
